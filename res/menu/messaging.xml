@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vitaliksv.simplechat.Messaging" >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/action_settings">
+        <menu>
+            <item
+                android:showAsAction="always"
+                android:id="@+id/action_clear_history"
+                android:title="@string/action_clear_history"/>
+        </menu>
+    </item>
+
+</menu>
